@@ -1,11 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+   text-shadow: 2px 4px 10px rgba(247, 245, 245, 0.918);
+}
+
  body{
-    background: url(../IMAGENES/aa77f875bd7a3947640860914d33cef8.gif);
+    background: url("../IMAGENES/d1e7ea2ec87e31946a094ec66f66724d.gif");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    overflow: hidden;
  }
 
  .aviso1{
-    background-color: black;
-    color: white;
- }
+   background-color: rgba(29, 49, 51, 0.697);
+   color: white;
+   width: 270px;
+   height: 80px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   display: flex;
+   flex-direction: column;
+   flex-wrap: nowrap;
+   align-content: center;
+   align-items: center;
+   border-radius: 20px;
+   box-shadow: 2px 4px 10px 4px rgb(233, 225, 225);
+   justify-content: center;
+
+}
+
+#button1 {
+   text-decoration: none;
+   color: azure;
+   background-color: rgba(88, 134, 97, 0.911);
+   border:none;
+   width: 100px;
+   height: 50px;
+   position: absolute;
+   top: 68%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   display: flex;
+   flex-direction: column;
+   flex-wrap: nowrap;
+   align-content: center;
+   align-items: center;
+   border-radius: 0 20px 0 0;
+   box-shadow: 2px 4px 10px 4px rgb(233, 225, 225);
+   justify-content: center;
+}
+ 
