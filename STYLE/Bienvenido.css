@@ -1,0 +1,11 @@
+ body{
+    background: url(../IMAGENES/aa77f875bd7a3947640860914d33cef8.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+ }
+
+ .aviso1{
+    background-color: black;
+    color: white;
+ }
