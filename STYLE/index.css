@@ -109,7 +109,7 @@ btn:hover{
     align-items: center;
     justify-content: center;
     width: 520px;
-    height: 500px;
+    height: 423px;
     overflow: hidden;
     z-index: 2;
 }
@@ -123,18 +123,14 @@ btn:hover{
     transition: .5s ease-in-out;
 }
 
-
-
 .register-container{
-    margin-bottom: -50px;
+    margin-bottom: 15px;
     position: absolute;
     right: -520px;
-    
     width: 500px;
     display: flex;
     flex-direction: column;
     transition: .5s ease-in-out;
-    
 }
 
 .top span{
