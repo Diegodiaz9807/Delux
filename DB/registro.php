@@ -5,11 +5,11 @@
     // Verificar si se ha enviado el formulario
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Verificar si todos los campos necesarios están presentes y no están vacíos
-        if (isset($_POST['Nombre'], $_POST['Apellido'], $_POST['Email'], $_POST['Contrasena'])) {
+        if (isset($_POST['Nombre'], $_POST['Apellido'], $_POST['Correo'], $_POST['Contrasena'])) {
             // Obtener los datos del formulario y escaparlos para evitar la inyección SQL
             $nombre = mysqli_real_escape_string($conexion, $_POST['Nombre']);
             $apellido = mysqli_real_escape_string($conexion, $_POST['Apellido']);
-            $email = mysqli_real_escape_string($conexion, $_POST['Email']);
+            $email = mysqli_real_escape_string($conexion, $_POST['Correo']);
             $contrasena = mysqli_real_escape_string($conexion, $_POST['Contrasena']);
 
             // Verificar si los campos no están vacíos
