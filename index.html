@@ -7,6 +7,7 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="icon" href="IMAGENES/buho.png" type="image/png">
     <link rel="stylesheet" href="STYLE/index.css">
+    
 </head>
 <body>
     <!-------------------------formato de caja----------------> 
@@ -57,6 +58,7 @@
         </div>
 
         <!-------------------------formulario de registro ----------------> 
+        <form class="form-box" method="post" action="../dalejandro/DB/registro.php" >
         <div class="register-container" id="register">
             <div class="top">
                 <span>Tengo una cuenta  <a href="#" onclick="login()">Ingresar</a></span>
@@ -64,20 +66,20 @@
             </div>
             <div class="two-form">
                 <div class="input-box">
-                    <input type="text" id="nombre" class="input-field" name="Nombre" placeholder="Nombre" required>
+                    <input type="text" id="Nombre" class="input-field" name="Nombre" placeholder="Nombre">
                     <i class="bx bx-user"></i>
                 </div>
                  <div class="input-box">
-                    <input type="text" id="apellido" class="input-field" name="Apellido" placeholder="Apellido" required>
+                    <input type="text" id="Apellido" class="input-field" name="Apellido" placeholder="Apellido" >
                     <i class="bx bx-user"></i>
                 </div>
             </div>
             <div class="input-box">
-                <input type="email" id="email" class="input-field" name="Email" placeholder="Email" required>
+                <input type="email" id="Email" class="input-field" name="Email" placeholder="EmaiL">
                 <i class="bx bx-envelope"></i>
             </div>
             <div class="input-box">
-                <input type="password" id="contraseña" class="input-field" name="Passsword" placeholder="Contraseña" required>
+                <input type="password" id="Contrasena" class="input-field" name="Contrasena" placeholder="Contraseña" >
                 <i class="bx bx-lock-alt"></i>
             </div>
             
@@ -89,7 +91,7 @@
           
 
             <div class="input-box">
-                <input type="submit" class="submit" id="confirmation" value="Registrarse" onclick="validar()" disbled>
+                <input type="submit" class="submit" id="confirmation" value="Registrarse"  >
             </div>
             <div class="two-col">
                 <div class="one">
@@ -101,6 +103,7 @@
                 </div>
             </div>
         </div>
+    </form>
     </div>
 </div> 
 

@@ -1,16 +1,19 @@
 <?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$database = "delux";
 
- $server = "localhost";
- $user = "root";
- $pass = "";
- $db = "login_db";
- 
- $conexion = new mysqli($server, $user, $pass,$db);
- 
- if ($conexion){
-    echo'Conectado exitosamente a la base de datos';
- }else{
-    echo'No se puede conectar a la base de datos';
- }
+// Crear conexión
+$conexion = new mysqli($servername, $username, $password, $database);
 
+// Verificar conexión
+if ($conexion->connect_error) {
+    die("La conexión ha fallado: " . $conexion->connect_error);
+}
+//  else {
+//     echo "Conectado exitosamente a la base de datos";
+// }
 ?>
+
+                 
